@@ -1,1 +1,32 @@
-/* Los estilos de tu proyecto */
+.navcoll{
+  background-color: #fff;
+  height: 120px;
+}
+
+/*.nvheader{
+  padding-top: 3.2%;
+  padding-left: 4%;
+}
+
+.logoimg{
+  width: 130px;
+  height: 30px;
+}*/
+
+.navbar-toggle{
+  float: left;
+  margin-left: 10px;
+}
+
+.bgimg{
+  background-image: url("../assets/images/taxi.jpg");
+  height: 830px;
+  background-size: cover;
+  background-position: 20% 91%;
+  background-repeat: no-repeat;
+}
+
+.yellowbox{
+  background-color: #F7B617;
+  height: 415px;
+}
