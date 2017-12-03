@@ -1,3 +1,7 @@
+*{
+  padding:0;
+}
+
 .navcoll{
   background-color: #fff;
   padding-top:35px;
@@ -28,7 +32,7 @@
 .yellowbox{
   background-color: #F7B617;
   height: 415px;
-  padding-top:200px;
+  margin-top: 270px;
 }
 
 @media(min-width:768px) {
@@ -53,10 +57,12 @@
   margin-left:10%;
 }
 }
-
+.phonebox{
+  background-color: #F7B617;
+  height: 532px;
+}
 @media(min-width:415px){
   .logoimg{
   width: 130px;
   height: 40px;
   margin-left:22%;
-}
