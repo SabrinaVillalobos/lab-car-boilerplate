@@ -1,17 +1,16 @@
 .navcoll{
   background-color: #fff;
-  height: 120px;
-}
-
-/*.nvheader{
-  padding-top: 3.2%;
-  padding-left: 4%;
+  padding-top:35px;
+  padding-bottom: 32px;
+  padding-left: 2%;
+  font-size: 16px;
 }
 
 .logoimg{
   width: 130px;
-  height: 30px;
-}*/
+  height: 40px;
+  padding-top: 10px;
+}
 
 .navbar-toggle{
   float: left;
@@ -29,4 +28,35 @@
 .yellowbox{
   background-color: #F7B617;
   height: 415px;
+  padding-top:200px;
+}
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    padding-left: 2%;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+
+@media(max-width:414px){
+  .logoimg{
+  width: 130px;
+  height: 40px;
+  margin-top: 7%;
+  margin-left:10%;
+}
+}
+
+@media(min-width:415px){
+  .logoimg{
+  width: 130px;
+  height: 40px;
+  margin-left:22%;
 }
