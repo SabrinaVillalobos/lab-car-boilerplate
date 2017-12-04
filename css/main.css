@@ -87,6 +87,48 @@ td{
 .driver{
   margin-left: 22px;
 }
+
+.yellowboxs{
+  background-color: #F7B617;
+  height: 240px;
+  margin-top: 410px;
+}
+.statr{
+  color:#fff;
+  margin-bottom:0;
+  padding-top: 40px;
+  padding-left: 25px;
+  font-size: 30px;
+}
+.downapp{
+  color:#fff;
+  font-size: 30px;
+  padding-left: 25px;
+}
+.logows{
+  width: 73px;
+  height: 18px;
+}
+.smallsiz{
+  margin-top:25px;
+  }
+
+.box{
+  background-color:red;
+  height: 450px;
+  margin-top:40px;
+  border:#fff solid 1px;
+}
+.phoneimg{
+  background-image: url("../assets/images/iPhone6Plus.png");
+  width: auto;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: 5% 120%;
+}
+
+
+
 /*medias*/
 @media(max-width:414px){
   .logoimg{
@@ -94,9 +136,6 @@ td{
   height: 40px;
   margin-top: 3%;
   margin-left:10%;
-}
-.enjoytrip,.timeowner,.travel,.btn,table {
-  display:none;
 }
 }
 
@@ -106,6 +145,7 @@ td{
   height: 40px;
   margin-top:3%;
   margin-left:22%;
+}
 }
 
 @media(min-width:768px) {
@@ -120,8 +160,16 @@ td{
     padding-left: 2%;
     /* Add additional styles here for the COLLAPSED state */
   }
+  .smallcontent{
+    display: none;
+  }
 }
+@media(max-width:767px){
 
+.bigcontent {
+  display:none;
+}
+}
 @media(max-width:1199px) {
 .enjoytrip {
     color: #fff;
@@ -149,5 +197,22 @@ h1 {
 @media(max-width:767px) {
 h1 {
     font-size: 33px;
+}
+}
+
+@media(max-width:221px) {
+.smallsiz {
+  margin-top: 0;
+  margin-left: 0;
+  margin-top: -9px;
+}
+.statr {
+    padding-top: 25px;
+}
+}
+
+@media(max-width:354px) {
+.smallsiz {
+  margin-top:0;
 }
 }
