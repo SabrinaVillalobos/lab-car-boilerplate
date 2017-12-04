@@ -114,19 +114,37 @@ td{
   }
 
 .box{
-  background-color:red;
   height: 450px;
   margin-top:40px;
   border:#fff solid 1px;
+  border-left: none;
 }
 .phoneimg{
   background-image: url("../assets/images/iPhone6Plus.png");
   width: auto;
-  height: 90%;
+  height: 100%;
   background-repeat: no-repeat;
-  background-position: 5% 120%;
+  background-position: 60% 50%;
+  background-size: 65%;
 }
-
+.boximg{
+  height: 450px;
+}
+.boxtext{
+  height: 450px;
+}
+.pimgtxt{
+  color:#fff;
+  font-size: 28px;
+  margin-top:60px;
+  margin-bottom: 20px;
+}
+#smalltxtp{
+  color:#fff;
+  font-size: 22px;
+  padding-right: 70px;
+  margin-bottom: 22px;
+}
 
 
 /*medias*/
