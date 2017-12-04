@@ -35,6 +35,76 @@
   margin-top: 270px;
 }
 
+
+.phonebox{
+  background-color: #F7B617;
+  height: 532px;
+}
+
+.enjoytrip{
+  color:#fff;
+  margin-bottom:0;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.timeowner{
+  margin-top: 0;
+  color:#fff;
+  padding-left: 25px;
+}
+
+.travel{
+  color: #fff;
+  font-size: 25px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.logow{
+  width: 98px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+.btn-default{
+  color:#000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+td{
+  color:#fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding:20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.driver{
+  margin-left: 22px;
+}
+/*medias*/
+@media(max-width:414px){
+  .logoimg{
+  width: 130px;
+  height: 40px;
+  margin-top: 3%;
+  margin-left:10%;
+}
+}
+
+@media(min-width:415px){
+  .logoimg{
+  width: 130px;
+  height: 40px;
+  margin-top:3%;
+  margin-left:22%;
+}
+
 @media(min-width:768px) {
   .navbar-default {
     -webkit-transition: all .35s;
@@ -48,21 +118,3 @@
     /* Add additional styles here for the COLLAPSED state */
   }
 }
-
-@media(max-width:414px){
-  .logoimg{
-  width: 130px;
-  height: 40px;
-  margin-top: 7%;
-  margin-left:10%;
-}
-}
-.phonebox{
-  background-color: #F7B617;
-  height: 532px;
-}
-@media(min-width:415px){
-  .logoimg{
-  width: 130px;
-  height: 40px;
-  margin-left:22%;
