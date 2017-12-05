@@ -221,18 +221,38 @@ td{
 .drivewhenyw{
   font-size: 3.143rem;
 }
-.borrame{
+.fees{
   height: 570px;
   background-color:red;
 }
 
+.boxleft{
+  background-color:blue;
+  height: 570px;
+}
 
+.boxright{
+  background-color:pink;
+  height: 570px;
+}
 
+.form-group{
+  width: 250px;
+}
 
+#mymap{
+  width: auto;
+  height: 75%;
+  background: yellow;
+  margin:80px;
+  margin-top:90px;
+  border:solid #fff 1px;
+}
 
-
-
-
+.footer{
+  height: 625px;
+  background-color: #2B2B2B;
+}
 /*medias*/
 @media(max-width:414px){
   .logoimg{
