@@ -145,31 +145,6 @@ td{
   padding-right: 70px;
   margin-bottom: 22px;
 }
-/*.pimgtxts{
-  color:#fff;
-  font-size: 3rem;
-  margin-top:60px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.boximgs{
-  height: 450px;
-}
-
-.boxs{
-  height: 450px;
-  margin-top:40px;
-  border:#fff solid 1px;
-  background-color: #F7B617;
-}
-
-.yellowsmall{
-  background-color: #F7B617;
-}
-.boxtexts{
-  height: 450px;
-}*/
 
 .phoneboxsmall{
   background-color:#F7B617;
@@ -208,6 +183,56 @@ td{
   margin: 8px;
   padding-top:30px;
 }
+
+.bcdriver{
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: 0 50%;
+  height: 447px;
+}
+
+.becdriv{
+  background-color: #F7B617;
+  color:#fff;
+  border:none;
+}
+.becdriv:hover{
+  background-color: #F7B617;
+  color:#000;
+  border:none;
+}
+.bcdrivertxt{
+  background-color:#0000008c;
+  height: 447px;
+  color:#fff;
+  padding:30px;
+  padding-top:80px;
+  font-size: 1.8rem;
+}
+.imgdriving{
+  background-image: url("../assets/images/iPhone6Plus.png");
+  width: auto;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 10%;
+  background-size: 100%;
+}
+
+.drivewhenyw{
+  font-size: 3.143rem;
+}
+.borrame{
+  height: 570px;
+  background-color:red;
+}
+
+
+
+
+
+
+
+
 /*medias*/
 @media(max-width:414px){
   .logoimg{
