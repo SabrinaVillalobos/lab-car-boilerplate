@@ -1,125 +1,138 @@
-*{
-  padding:0;
+* {
+  padding: 0;
 }
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+/* WebKit, Blink, Edge */
 
-.navcoll{
+.form-control:-moz-placeholder {
+  color: white;
+}
+/* Mozilla Firefox 4 to 18 */
+
+.form-control::-moz-placeholder {
+  color: white;
+}
+/* Mozilla Firefox 19+ */
+
+.form-control:-ms-input-placeholder {
+  color: white;
+}
+/* Internet Explorer 10-11 */
+
+.form-control::-ms-input-placeholder {
+  color: white;
+}
+/* Microsoft Edge */
+
+.btn{
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+.navcoll {
   background-color: #fff;
-  padding-top:35px;
+  padding-top: 35px;
   padding-bottom: 32px;
   padding-left: 2%;
   font-size: 16px;
 }
-
-.logoimg{
+.logoimg {
   width: 130px;
   height: 40px;
   padding-top: 10px;
 }
-
-.navbar-toggle{
+.navbar-toggle {
   float: left;
   margin-left: 10px;
 }
-
-.bgimg{
+.bgimg {
   background-image: url("../assets/images/taxi.jpg");
   height: 830px;
   background-size: cover;
   background-position: 20% 91%;
   background-repeat: no-repeat;
 }
-
-.yellowbox{
+.yellowbox {
   background-color: #F7B617;
   height: 415px;
   margin-top: 270px;
 }
-
-
-.phonebox{
+.phonebox {
   background-color: #F7B617;
   height: 532px;
 }
-
-.enjoytrip{
-  color:#fff;
-  margin-bottom:0;
+.enjoytrip {
+  color: #fff;
+  margin-bottom: 0;
   padding-top: 20px;
   padding-left: 25px;
 }
-
-.timeowner{
+.timeowner {
   margin-top: 0;
-  color:#fff;
+  color: #fff;
   padding-left: 25px;
 }
-
-.travel{
+.travel {
   color: #fff;
   font-size: 25px;
   padding-left: 25px;
   padding-top: 20px;
 }
-
-.logow{
+.logow {
   width: 98px;
   height: 23px;
   margin-left: 10px;
 }
-
-.btn-default{
-  color:#000;
+.btn-default {
+  color: #000;
   font-size: 16px;
   font-weight: bold;
   margin-left: 25px;
   margin-top: 5px;
 }
-
-td{
-  color:#fff;
+td {
+  color: #fff;
   font-weight: bold;
   font-size: 15px;
-  padding:20px;
+  padding: 20px;
   padding-left: 55px;
   padding-right: 55px;
 }
-
-.driver{
+.driver {
   margin-left: 22px;
 }
-
-.yellowboxs{
+.yellowboxs {
   background-color: #F7B617;
   height: 240px;
   margin-top: 410px;
 }
-.statr{
-  color:#fff;
-  margin-bottom:0;
+.statr {
+  color: #fff;
+  margin-bottom: 0;
   padding-top: 40px;
   padding-left: 25px;
   font-size: 30px;
 }
-.downapp{
-  color:#fff;
+.downapp {
+  color: #fff;
   font-size: 30px;
   padding-left: 25px;
 }
-.logows{
+.logows {
   width: 73px;
   height: 18px;
 }
-.smallsiz{
-  margin-top:25px;
-  }
-
-.box{
+.smallsiz {
+  margin-top: 25px;
+}
+.box {
   height: 450px;
-  margin-top:40px;
-  border:#fff solid 1px;
+  margin-top: 40px;
+  border: #fff solid 1px;
   border-left: none;
 }
-.phoneimg{
+.phoneimg {
   background-image: url("../assets/images/iPhone6Plus.png");
   width: auto;
   height: 100%;
@@ -127,45 +140,43 @@ td{
   background-position: 60% 50%;
   background-size: 65%;
 }
-.boximg{
+.boximg {
   height: 450px;
 }
-.boxtext{
+.boxtext {
   height: 450px;
 }
-.pimgtxt{
-  color:#fff;
+.pimgtxt {
+  color: #fff;
   font-size: 3rem;
-  margin-top:60px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
-#smalltxtp{
-  color:#fff;
+#smalltxtp {
+  color: #fff;
   font-size: 2.1rem;
   padding-right: 70px;
   margin-bottom: 22px;
 }
-
-.phoneboxsmall{
-  background-color:#F7B617;
+.phoneboxsmall {
+  background-color: #F7B617;
 }
-.yells{
+.yells {
   height: 520px;
   margin-top: 40px;
   margin-left: 4.5%;
-  border:#fff solid 1px;
+  border: #fff solid 1px;
 }
-.textsm{
+.textsm {
   margin-top: 20px;
 }
-
-.pimgtxts{
+.pimgtxts {
   text-align: center;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
-.phoneimgs{
+.phoneimgs {
   background-image: url(../assets/images/iPhone6Plus.png);
   width: auto;
   background-repeat: no-repeat;
@@ -173,43 +184,41 @@ td{
   background-size: 54%;
   height: 440px;
   margin-top: 75px;
-  }
-
-.arrive{
+}
+.arrive {
   text-align: left;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
   margin: 8px;
-  padding-top:30px;
+  padding-top: 30px;
 }
-
-.bcdriver{
+.bcdriver {
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
   background-position: 0 50%;
   height: 447px;
+  font-size: 1.6rem;
 }
-
-.becdriv{
+.becdriv {
   background-color: #F7B617;
-  color:#fff;
-  border:none;
+  color: #fff;
+  border: none;
 }
-.becdriv:hover{
+.becdriv:hover {
   background-color: #F7B617;
-  color:#000;
-  border:none;
+  color: #000;
+  border: none;
 }
-.bcdrivertxt{
-  background-color:#0000008c;
+.bcdrivertxt {
+  background-color: #0000008c;
   height: 447px;
-  color:#fff;
-  padding:30px;
-  padding-top:80px;
+  color: #fff;
+  padding: 30px;
+  padding-top: 80px;
   font-size: 1.8rem;
 }
-.imgdriving{
+.imgdriving {
   background-image: url("../assets/images/iPhone6Plus.png");
   width: auto;
   height: 100%;
@@ -217,50 +226,231 @@ td{
   background-position: 0 10%;
   background-size: 100%;
 }
-
-.drivewhenyw{
+.tari {
+  margin-top: 0;
+  color: #fff;
+  padding: 20px;
+  padding-left: 13%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.ask {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal!important;
+  padding: 20px;
+  padding-left: 13%;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.drivewhenyw {
   font-size: 3.143rem;
 }
-.fees{
+.fees {
   height: 570px;
-  background-color:red;
+  background-color: red;
 }
-
-.boxleft{
-  background-color:blue;
-  height: 570px;
-}
-
-.boxright{
-  background-color:pink;
+.boxleft {
+  background-color: blue;
   height: 570px;
 }
-
-.form-group{
+.boxright {
+  height: 570px;
+  background-color: red;
+}
+.form-group {
   width: 250px;
 }
-
-#mymap{
-  width: auto;
-  height: 75%;
-  background: yellow;
-  margin:80px;
-  margin-top:90px;
-  border:solid #fff 1px;
+.map {
+  height: 30em;
 }
-
-.footer{
+#partida {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #F7B617;
+  color: #fff;
+  margin-bottom: 10px;
+  border: #fff 1px solid;
+}
+#destino {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #F7B617;
+  border: #fff 1px solid;
+  color: #fff;
+}
+.glyphicon-record:before {
+  content: "\e165";
+  color: #fff;
+  font-size: 20px;
+}
+.glyphicon-map-marker:before {
+  content: "\e062";
+  color: #fff;
+  font-size: 20px;
+}
+.ruta {
+  margin-left: 36%;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 175px;
+  color: #2B2B2B;
+}
+.marginwhite {
+  background color: teal;
+  height: 300px;
+  width: 300px;
+}
+.input-group-addon {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F7B617;
+  border: none
+}
+.colorgreen {
+  background-color: #F7B617;
+  padding-bottom: 40px;
+}
+.colorpink {
+  background-color: #F7B617;
+  height: 550px;
+}
+.coloryellow {
+  background-color: #F7B617;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 11%;
+  width: 57%;
+  border-radius: 5px;
+}
+.colorpurple {
+  background-color: #F7B617;
+  border: 1px solid #fff;
+  margin-left: 5.2%;
+  width: 40%;
+  margin-top: 3.2%;
+}
+.mapa {
+  padding-bottom: 8px;
+  padding-top: 13px;
+}
+.fa {
+  padding: 3px;
+  cursor: pointer;
+  color: #fff;
+}
+.bordes {
+  background-color: green;
+  height: 30px;
+  width: 30px;
+}
+.footer {
   height: 625px;
   background-color: #2B2B2B;
+  padding: 4rem;
+  padding-top: 6rem;
+}
+.foh {
+  background-color: #2B2B2B;
+  border-bottom: 2px #fff solid;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.fo1 {
+  height: 370px;
+  color: #fff;
+}
+.fot {
+  padding-right: 65px;
+  padding-left: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #2B2B2B;
+}
+.fo2 {
+  height: 370px;
+  color: #fff;
+}
+.fo2l {
+  padding: 20px;
+  line-height: 40px;
+}
+.fo3 {
+  height: 370px;
+  color: #fff;
+}
+.fo3l {
+  padding: 20px;
+  line-height: 40px;
+}
+.fo4 {
+  height: 370px;
+}
+.footerd {
+  background-color: #2B2B2B;
+  height: 124px;
+  border-top: 2px #fff solid;
+  color: #fff;
+  padding-top: 20px;
+}
+.ts {
+  color: #fff0;
+}
+.img-responsive {
+  height: auto;
+  width: 60%;
+  padding-bottom: 14px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #F7B617;
+  text-decoration: none;
+}
+.labicow {
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.hid {
+  width: 100%;
+  height: 90%;
+  visibility: hidden;
+}
+.hid2 {
+  width: 100%;
+  height: 65%;
+  visibility: hidden;
+}
+.dos {
+  height: auto;
+  width: 100%;
+  padding-bottom: 14px;
+}
+.dos1 {
+  padding-top: 20px;
+  height: auto;
+  width: 100%;
+  padding-bottom: 14px;
+  padding-top: 14%;
+}
+.fo4-2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /*medias*/
-@media(max-width:414px){
-  .logoimg{
-  width: 130px;
-  height: 40px;
-  margin-top: 3%;
-  margin-left:10%;
-}
+
+@media(max-width:414px) {
+  .logoimg {
+    width: 130px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+  }
   .phoneimgs {
     background-image: url(../assets/images/iPhone6Plus.png);
     width: auto;
@@ -268,35 +458,32 @@ td{
     background-size: 90%!important;
     height: 350px;
     margin-top: 75px;
-}
-.yells {
+  }
+  .yells {
     height: 450px;
+  }
 }
+@media(min-width:415px) {
+  .logoimg {
+    width: 130px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 22%;
+  }
 }
-
-@media(min-width:415px){
-  .logoimg{
-  width: 130px;
-  height: 40px;
-  margin-top:3%;
-  margin-left:22%;
-}
-
-}
-
 @media(min-width:768px) {
   .navbar-default {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    
   }
   .navbar-default.affix {
     padding: 0;
     padding-left: 2%;
     /
   }
-  .smallcontent,.phoneboxsmall{
+  .smallcontent,
+  .phoneboxsmall {
     display: none;
   }
   .phoneimgs {
@@ -306,68 +493,148 @@ td{
     background-size: 100%;
     height: 350px;
     margin-top: 75px;
+  }
+  .minimap {
+    display: none;
+  }
+  .fo2-2 {
+    display: none;
+  }
+  .fo4-2 {
+    display: none;
+  }
 }
-}
-@media(max-width:767px){
-.bigcontent {
-  display:none;
-}
-.phonebox{
-  display:none;
-}
+@media(max-width:767px) {
+  .bigcontent {
+    display: none;
+  }
+  .phonebox {
+    display: none;
+  }
+  .map {
+    display: none;
+  }
+  .mapa {
+    height: 450px;
+  }
+  .colorpurple {
+    width: 90%;
+  }
+  .tari {
+    margin-top: 0;
+    color: #fff;
+    padding: 20px;
+    padding-left: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  .tari {
+      padding-left: 0;
+  }
+  .coloryellow {
+      margin-left: 0;
+      width: 90%;
+  }
+  .ask {
+    padding-left: 0;
+  }
+  .ruta {
+    margin-left: 30%;
+  }
+  .colorpink {
+    height: 450px;
+  }
+  .footer {
+    padding: 0;
+    padding-top: 2rem;
+    height: 470px;
+  }
+  .footerd {
+    height: 13%;
+  }
+  .fot {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 500px;
+  }
+  .fo1 {
+    display: none;
+  }
+  .fo3 {
+    display: none;
+  }
+  .fo2 {
+    display: none;
+  }
+  .fo4 {
+    display: none;
+  }
+  .dos,
+  .dos1 {
+    width: 80%;
+  }
 }
 @media(max-width:1199px) {
-.enjoytrip {
+  .enjoytrip {
     color: #fff;
     margin-bottom: 0;
     padding-top: 40px;
     padding-left: 25px;
-}
-}
-
-@media(max-width:1073px) {
-h1 {
-    font-size: 35px;
-}
-
-@media(max-width:1047px) {
-h1 {
-    font-size: 34px;
-}
-
-@media(max-width:994px) {
-h1 {
-    font-size: 33px;
-}
-}
-
-@media(max-width:767px) {
-h1 {
-    font-size: 33px;
-}
-}
-
-@media(max-width:221px) {
-.smallsiz {
-  margin-top: 0;
-  margin-left: 0;
-  margin-top: -9px;
-}
-.statr {
-    padding-top: 25px;
-}
-
-  .phoneimgs{
-  background-size: 100%;
   }
 }
-
-@media(max-width:354px) {
-.smallsiz {
-  margin-top:0;
+@media(max-width: 550px) {
+  .mapa {
+    height: 200px!important;
+  }
 }
-
-  .phoneimgs{
-  background-size: 100%;
+@media(max-width:1073px) {
+  h1 {
+    font-size: 35px;
+  }
+@media(max-width:1047px) {
+  h1 {
+    font-size: 34px;
+}
+@media(max-width:994px) {
+  h1 {
+    font-size: 33px;
+}
+  .map {
+  display: none;
+}
+  .minimap {
+  display: block;
+  }
+  .mapa {
+    height: 450px;
+  }
+  .colorpurple {
+    width: 90%;
+  }
+}
+@media(max-width:767px) {
+  h1 {
+    font-size: 33px;
+  }
+}
+@media(max-width:221px) {
+  .smallsiz {
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: -9px;
+  }
+  .statr {
+    padding-top: 25px;
+  }
+  .phoneimgs {
+    background-size: 100%;
+  }
+}
+@media(max-width:354px) {
+  .smallsiz {
+    margin-top: 0;
+  }
+  .phoneimgs {
+    background-size: 100%;
   }
 }
