@@ -24,7 +24,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a class="btns" href="#" style="padding-left:40px;">Viaja</a></li>
             <li><a class="btns" href="#" style="padding-left:40px;">Conduce</a></li>
-            <li><a class="btns" href="#" style=" padding-left:40px;padding-right:100px;">Inicia sesión</a></li>
+            <li><a onclick="document.getElementById('id01').style.display='block'" class="btns" href="#" style=" padding-left:40px;padding-right:100px;">Inicia sesión</a></li>
           </ul>
         </div>
       </div>
@@ -221,6 +221,25 @@
         </div>
       </div>
     </div>
+    <!-- inicio modal inicio sesión -->
+    <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="assets/images/user.png" alt="Avatar" class="avatar">
+    </div>
+    <hr>
+    <div class="container">
+      <div class="input-group padd"><span class="input-group-addon" id="sign"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="text" placeholder="Username" name="uname" required></div>
+      <div class="input-group padd">
+      <span class="input-group-addon" id="sign2"><i class="glyphicon glyphicon-lock"></i></span><input type="password" placeholder="Password" name="psw" required></div>
+      <div class="text-center"><button type="button" class="btn btn-default lgin" id="lgin">Login</button></div>
+      <div><p class="forgot">Forgot password? <a class="click" href="#">Click here</a></p>
+    </div>
+</div>
+<!-- fin modal inicio sesión -->
     <!-- fin footer -->
     <!-- scripts -->
     <script src="js/jquery.js"></script>
