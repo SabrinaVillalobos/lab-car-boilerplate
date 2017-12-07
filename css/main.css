@@ -47,7 +47,7 @@
   margin-left: 10px;
 }
 .bgimg {
-  background-image: url("../images/conduce.jpg");
+  background-image: url("../assets/images/taxi.jpg");
   height: 830px;
   background-size: cover;
   background-position: 20% 91%;
@@ -133,7 +133,7 @@ td {
   border-left: none;
 }
 .phoneimg {
-  background-image: url("../images/iPhone6Plus.png");
+  background-image: url("../assets/images/iPhone6Plus.png");
   width: auto;
   height: 100%;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ td {
   font-weight: bold;
 }
 .phoneimgs {
-  background-image: url(../images/iPhone6Plus.png);
+  background-image: url(../assets/images/iPhone6Plus.png);
   width: auto;
   background-repeat: no-repeat;
   background-position: center center;
@@ -194,7 +194,7 @@ td {
   padding-top: 30px;
 }
 .bcdriver {
-  background-image: url("../images/conduce.jpg");
+  background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
   background-position: 0 50%;
   height: 447px;
@@ -219,7 +219,7 @@ td {
   font-size: 1.8rem;
 }
 .imgdriving {
-  background-image: url("../images/iPhone6Plus.png");
+  background-image: url("../assets/images/iPhone6Plus.png");
   width: auto;
   height: 100%;
   background-repeat: no-repeat;
@@ -452,7 +452,7 @@ a:hover {
     margin-left: 10%;
   }
   .phoneimgs {
-    background-image: url(../images/iPhone6Plus.png);
+    background-image: url(../assets/images/iPhone6Plus.png);
     width: auto;
     background-repeat: no-repeat;
     background-size: 90%!important;
@@ -487,7 +487,7 @@ a:hover {
     display: none;
   }
   .phoneimgs {
-    background-image: url(../images/iPhone6Plus.png);
+    background-image: url(../assets/images/iPhone6Plus.png);
     width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
