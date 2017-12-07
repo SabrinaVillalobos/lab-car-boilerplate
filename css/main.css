@@ -1,7 +1,7 @@
 * {
   padding: 0;
 }
-.form-control::-webkit-input-placeholder {
+.form-control.yw::-webkit-input-placeholder {
   color: white;
 }
 /* WebKit, Blink, Edge */
@@ -26,111 +26,6 @@
 }
 /* Microsoft Edge */
 
-/*inicio modal login*/
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 30%;
-}
-
-.click{
-  color:#B10150;
-}
-#lgin{
-  background-color: #F0AD4E;
-  margin-right: 5%;
-  margin-top: 20px!important;
-  color:#fff!important;
-}
-.forgot{
-  margin-top: 18px;
-}
-.padd{
-  margin-left: 3%;
-  margin-top: 20px;
-}
-.container {
-  background-color: #F5F5F5;
-  width:60%;
-  border-radius: 5px;
-}
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
-  padding-top: 60px;
-  margin-top: 5%;
-}
-.modal-content {
-  background-color: #08AC9D;
-  margin: 5% auto 15% auto;
-  border: 1px solid #888;
-  width: 45%;
-  height: 465px;
-}
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-#sign,#sign2{
-  background-color: #EEEEEE;
-}
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
-}
-/*fin modal login*/
 .btn{
   white-space: normal !important;
   word-wrap: break-word;
@@ -152,7 +47,7 @@ span.psw {
   margin-left: 10px;
 }
 .bgimg {
-  background-image: url("../assets/images/taxi.jpg");
+  background-image: url("../images/conduce.jpg");
   height: 830px;
   background-size: cover;
   background-position: 20% 91%;
@@ -238,7 +133,7 @@ td {
   border-left: none;
 }
 .phoneimg {
-  background-image: url("../assets/images/iPhone6Plus.png");
+  background-image: url("../images/iPhone6Plus.png");
   width: auto;
   height: 100%;
   background-repeat: no-repeat;
@@ -282,7 +177,7 @@ td {
   font-weight: bold;
 }
 .phoneimgs {
-  background-image: url(../assets/images/iPhone6Plus.png);
+  background-image: url(../images/iPhone6Plus.png);
   width: auto;
   background-repeat: no-repeat;
   background-position: center center;
@@ -299,7 +194,7 @@ td {
   padding-top: 30px;
 }
 .bcdriver {
-  background-image: url("../assets/images/conduce.jpg");
+  background-image: url("../images/conduce.jpg");
   background-size: cover;
   background-position: 0 50%;
   height: 447px;
@@ -324,7 +219,7 @@ td {
   font-size: 1.8rem;
 }
 .imgdriving {
-  background-image: url("../assets/images/iPhone6Plus.png");
+  background-image: url("../images/iPhone6Plus.png");
   width: auto;
   height: 100%;
   background-repeat: no-repeat;
@@ -408,7 +303,7 @@ td {
   height: 300px;
   width: 300px;
 }
-.input-group-addon {
+#taradd,#taradd2 {
   padding: 10px;
   margin: 20px;
   background-color: #F7B617;
@@ -557,7 +452,7 @@ a:hover {
     margin-left: 10%;
   }
   .phoneimgs {
-    background-image: url(../assets/images/iPhone6Plus.png);
+    background-image: url(../images/iPhone6Plus.png);
     width: auto;
     background-repeat: no-repeat;
     background-size: 90%!important;
@@ -592,7 +487,7 @@ a:hover {
     display: none;
   }
   .phoneimgs {
-    background-image: url(../assets/images/iPhone6Plus.png);
+    background-image: url(../images/iPhone6Plus.png);
     width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -678,6 +573,10 @@ a:hover {
   .dos1 {
     width: 80%;
   }
+  .modal-content {
+    width: 90%;
+    margin-left: 5%;
+}
 }
 @media(max-width:1199px) {
   .enjoytrip {

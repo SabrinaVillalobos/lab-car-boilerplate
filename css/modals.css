@@ -1,0 +1,101 @@
+/*inicio modal signin*/
+.modal-content{
+  background-color: #08AC9D;
+  width: 65%;
+  margin-left: 20%;
+}
+#userpic{
+  margin: 0 auto;
+  width: 35%;
+}
+button.close{
+  font-size: 3rem;
+}
+.insidemodalb{
+  background-color: #F5F5F5;
+  height: 300px;
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+#inbod{
+  padding-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+.btnlog{
+  background-color: #F7B617;
+  color:#fff!important;
+  margin-left: 35%!important;
+  margin-top: 5%!important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.forg{
+  color: #A52A2A;
+  margin-left: 1%
+}
+.fp{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+/*fin modal signin*/
+/*inicio modal signup*/
+.modal-content2{
+  background-color: #A9A9A9;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+#acco{
+  background-color: #000000;
+  color: #fff;
+  border:none;
+  margin-top:5%;
+  margin-left: 11%;
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.newac{
+  margin-left: 30%;
+  margin-top: 2%;
+}
+input#name.form-control.plh{
+  color:initial;
+}
+#cl2{
+  font-size: 3rem;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+#name{
+  margin-left: 15%;
+  width: 14vw;
+}
+#srn{
+  margin-left: 5%;
+  width: 15vw;
+}
+#email,#phone,#pwd,#city,#txt{
+  margin-left: 25%;
+  width: 30vw;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+#inputs{
+  width:initial;
+}
+#how{
+  width: 90%;
+}
+#send{
+  width: 90%;
+  margin-bottom: 3%;
+  background-color: #5BC0DE;
+  color:#fff;
+  border:none;
+}
+/*fin modal signup*/

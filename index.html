@@ -4,11 +4,84 @@
   <meta charset="UTF-8">
   <title>Lab-<ar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/modals.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+<!-- inicio modal sign in -->
+
+<div class="modal fade" id="modalsignin">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <img class="img-responsive" id="userpic" src="assets/images/gnr_prf.png" alt="user picture">
+        </div>
+        <!-- contenido de la ventana -->
+        <div class="modal-body">
+          <div class="insidemodalb">
+            <div class="input-group" id="inbod">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="username" type="text" class="form-control" name="username" placeholder="Username">
+  </div>
+  <div class="input-group" id="inbod">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <button class="btn btn-default btn-lg btnlog">Log in</button>
+  <p class="fp">Forgot password?<a href="#" class="forg">Click here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- fin modal sign in -->
+<!-- inicio modal sign up -->
+
+<div class="modal fade" id="modalsignup">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content2">
+          <button tyle="button" class="close" id="cl2" data-dismiss="modal" aria-hidden="true">&times;</button>
+         <button type="button" class="btn btn-default btn-lg" id="acco">¿Ya tienes una cuenta?</button>
+         <p class="newac">O CREA UNA CUENTA NUEVA</p>
+        <!-- contenido de la ventana -->
+        <form class="form-inline" action="/action_page.php">
+  <div class="form-group">
+    
+    <input type="name" class="form-control" id="name" placeholder="Nombre">
+  </div>
+  <div class="form-group">
+   
+    <input type="surname" class="form-control" id="srn" placeholder="Apellido">
+  </div>
+</form>
+<form action="/action_page.php">
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" placeholder="Correo Electronico: ejemplo@correo.cl">
+  </div>
+  <div class="form-group">
+    <input type="phone" class="form-control" id="phone" placeholder="Teléfono">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="pwd" placeholder="Contraseña">
+  </div>
+  <div class="form-group">
+    <input type="city" class="form-control" id="city" placeholder="Ciudad">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="txt" placeholder="(Opcional) Código de invitación">
+  </div>
+    <button type="submit" class="btn btn-default btn-lg" id="how">¿Cómo te enteraste de nosotros?</button><br>
+  <button type="submit" class="btn btn-default btn-lg" id="send">ENVIAR</button>
+</form>
+
+      </div>
+    </div>
+  </div>
+      <!-- fin modal sign up -->
+
   <!-- inicio de navbar -->
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navcoll">
     <div id="bd" class="container-fluid">
@@ -24,7 +97,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a class="btns" href="#" style="padding-left:40px;">Viaja</a></li>
             <li><a class="btns" href="#" style="padding-left:40px;">Conduce</a></li>
-            <li><a onclick="document.getElementById('id01').style.display='block'" class="btns" href="#" style=" padding-left:40px;padding-right:100px;">Inicia sesión</a></li>
+            <li><a data-toggle="modal" class="btns" href="#modalsignin" style=" padding-left:40px;padding-right:100px;">Inicia sesión</a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +115,7 @@
                     <h1 class="enjoytrip">Disfruta del viaje</h1>
                     <h1 class="timeowner">Eres dueño de tu tiempo</h1>
                     <p class="travel">Viaja con <img class="logow" src="assets/images/logoBlanco.png" alt=""></p>
-                    <button type="button" class="btn btn-default btn-lg norsiz">REGÍSTRATE</button>
+                    <button type="button" class="btn btn-default btn-lg norsiz" data-toggle="modal" href="#modalsignup">REGÍSTRATE</button>
                     <table width="100%">
                       <td class="lines">
                         <hr />
@@ -124,12 +197,12 @@
             <p class="ask">Consulta las tarifas LabCar aquí</p>
             <form class="coloryellow">
               <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-record"></i></span>
-                <input id="partida" type="text" class="form-control" name="partida" placeholder="Ingrese su punto de partida">
+                <span class="input-group-addon" id="taradd"><i class="glyphicon glyphicon-record"></i></span>
+                <input id="partida" type="text" class="form-control yw" name="partida" placeholder="Ingrese su punto de partida">
               </div>
               <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
-                <input id="destino" type="text" class="form-control" name="destino" placeholder="Ingrese su destino">
+                <span class="input-group-addon" id="taradd2"><i class="glyphicon glyphicon-map-marker"></i></span>
+                <input id="destino" type="text" class="form-control yw" name="destino" placeholder="Ingrese su destino">
               </div>
               <button type="button" class="btn btn-default btn-lg ruta">¡TRAZAR RUTA!</button>
             </form>
@@ -221,29 +294,10 @@
         </div>
       </div>
     </div>
-    <!-- inicio modal inicio sesión -->
-    <div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="assets/images/user.png" alt="Avatar" class="avatar">
-    </div>
-    <hr>
-    <div class="container">
-      <div class="input-group padd"><span class="input-group-addon" id="sign"><i class="glyphicon glyphicon-user"></i></span>
-      <input type="text" placeholder="Username" name="uname" required></div>
-      <div class="input-group padd">
-      <span class="input-group-addon" id="sign2"><i class="glyphicon glyphicon-lock"></i></span><input type="password" placeholder="Password" name="psw" required></div>
-      <div class="text-center"><button type="button" class="btn btn-default lgin" id="lgin">Login</button></div>
-      <div><p class="forgot">Forgot password? <a class="click" href="#">Click here</a></p>
-    </div>
-</div>
-<!-- fin modal inicio sesión -->
     <!-- fin footer -->
     <!-- scripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
