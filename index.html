@@ -81,7 +81,54 @@
     </div>
   </div>
       <!-- fin modal sign up -->
+<!-- inicio modal conductor -->
+<div class="modal fade" id="modaljoin">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content3">
+<section id="login">
+    <div class="container">
+      <div class="row">
+          <div class="col-xs-8 backgr">
+              <div class="form-wrap">
+                <button tyle="button" class="close" id="close2" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h1>¿Tienes vehículo de 4 puertas?</h1>
+                   <select class="selectpicker">
+  <option>Si</option>
+  <option>No</option>
+</select>
+<h1>Marca</h1>
+                   <select class="selectpicker">
+  <option>Elige la marca del vehículo</option>
+  <option>marca de auto super conocida</option>
+</select>
+<p class="listauto">¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#" id="maillb">sociosmdv@labcar.com</a></p>
+<h1>Modelo</h1>
+                   <select class="selectpicker">
+  <option>Modelo1</option>
+  <option>Modelo2</option>
+</select>
+<h1>Año</h1>
+                   <select class="selectpicker">
+  <option>2017</option>
+  <option>2016</option>
+</select>
+<h1>Numero de la matrícula</h1>
+<div class="form-group" id="matri">
+    <input type="text" class="form-control" id="matricula" placeholder="Número de la matrícula" style="margin-left:-59%;width:185%;">
+  </div>
+  <p class="listauto">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+  <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="ENVIAR">
+              </div>
+        </div> <!-- /.col-xs-12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</section>
 
+
+      </div>
+    </div>
+  </div>
+<!-- fin modal conductor -->
   <!-- inicio de navbar -->
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navcoll">
     <div id="bd" class="container-fluid">
@@ -125,7 +172,7 @@
                         <hr />
                       </td>
                     </table>
-                    <button type="button" class="btn btn-default btn-lg driver btns">Conviértete en un conductor</button>
+                    <button data-toggle="modal" href="#modaljoin" type="button" class="btn btn-default btn-lg driver btns">Conviértete en un conductor</button>
                   </div>
                 </div>
                 <!-- fin contenedor formulario de registro -->

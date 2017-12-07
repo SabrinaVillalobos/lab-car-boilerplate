@@ -88,6 +88,9 @@ input#name.form-control.plh{
 #inputs{
   width:initial;
 }
+#close2{
+  margin-right: -110%!important;
+}
 #how{
   width: 90%;
 }
@@ -99,3 +102,96 @@ input#name.form-control.plh{
   border:none;
 }
 /*fin modal signup*/
+/*    --------------------------------------------------
+  :: Login Section
+  -------------------------------------------------- */
+.backgr{
+  background-color: #A9A9A9;
+  border-radius: 5px;
+}
+#login {
+  padding-top: 50px;
+  margin-left: 10%;
+}
+#login .form-wrap {
+  width: 30%;
+  margin: 0 auto;
+}
+#maillb{
+  color:#0B3063;
+}
+.listauto{
+  margin-left: -80%;
+}
+input#matricula.form-scontrol{
+  margin-left: -80%;
+}
+#login h1 {
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-left: -80%;
+}
+#login .form-group {
+  margin-bottom: 25px;
+}
+#login .checkbox {
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#login .checkbox.show:before {
+  content: '\e013';
+  color: #5BC0DE;
+  font-size: 17px;
+  margin: 1px 0 0 3px;
+  position: absolute;
+  pointer-events: none;
+  font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  display: inline-block;
+}
+#login .checkbox .label {
+  color: #6d6d6d;
+  font-size: 13px;
+  font-weight: normal;
+}
+#login .btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#login .forget {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+.form-control {
+  color: #212121;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #5BC0DE;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+  color: #fff;
+}
+.selectpicker {
+  width: 250%;
+  padding: 5%;
+  border-radius: 5px;
+  margin-left: -80%;
+}
